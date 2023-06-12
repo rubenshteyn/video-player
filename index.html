@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="https://cdn.plyr.io/3.7.8/plyr.css" />
+    <script src="https://cdn.plyr.io/3.7.8/plyr.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="player">
+        <video id="video" controls></video>
+        <div id="current-time"></div>
+        <div class="metric metric-length">
+            <span id="range-length" class="range"></span>
+        </div>
+        <span class="text">Просмотрено</span>
+        <div class="metric metric-audio">
+            <span id="range-audio" class="range"></span>
+        </div>
+        <span class="text">Громкость</span>
+    </div>
+    <script src="player.js"></script>
+</body>
+</html>

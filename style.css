@@ -1,0 +1,43 @@
+body {
+    background: #000;
+    font-family: 'Montserrat';
+}
+.player {
+    width: 600px;
+    margin: 0 auto;
+    padding: 100px 0px;
+}
+
+#video {
+    width: 100%;
+}
+
+#current-time {
+    width: min-content;
+    font-size: 24px;
+    color: #fff;
+    margin: 20px auto;
+}
+
+.metric {
+    width: 100%;
+    height: 3px;
+    border: 1px solid #fff;
+    margin: 20px 0px 10px 0px;
+    border-radius: 10px;
+    background: #000;
+}
+
+.range {
+    display: block;
+    height: 100%;
+    background-color: #ffffff;
+}
+
+.text {
+    width: min-content;
+    white-space: nowrap;
+    display: block;
+    margin: 10px auto 40px auto;
+    color: #ffffff;
+}
